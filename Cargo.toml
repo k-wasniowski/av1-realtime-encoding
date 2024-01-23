@@ -1,0 +1,11 @@
+[package]
+name = "av1-realtime-encoding"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rav1e = { version = "0.7.1", features = ["asm"] }
+opencv = { version = "0.88.8" }
+log = "0.4.20"
